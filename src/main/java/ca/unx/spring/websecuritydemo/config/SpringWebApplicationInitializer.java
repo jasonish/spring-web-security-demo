@@ -1,4 +1,4 @@
-package ca.unx.webapp.config;
+package ca.unx.spring.websecuritydemo.config;
 
 import org.springframework.web.servlet.support.AbstractAnnotationConfigDispatcherServletInitializer;
 
@@ -7,7 +7,7 @@ public class SpringWebApplicationInitializer
 
     @Override
     protected Class<?>[] getRootConfigClasses() {
-        return new Class[]{RootConfiguration.class};
+        return new Class[]{RootConfiguration.class, SpringSecurityConfig.class};
     }
 
     @Override

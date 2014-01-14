@@ -1,4 +1,4 @@
-package ca.unx.webapp.config;
+package ca.unx.spring.websecuritydemo.config;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Configuration;

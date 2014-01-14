@@ -1,4 +1,4 @@
-package ca.unx.webapp;
+package ca.unx.spring.websecuritydemo;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
